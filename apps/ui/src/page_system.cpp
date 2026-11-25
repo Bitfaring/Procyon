@@ -9,9 +9,9 @@
 namespace procyon::ui {
 namespace {
 
-const wchar_t *const kRepository = L"https://github.com/manhpham90vn/Procyon";
-const wchar_t *const kLatestRelease = L"https://github.com/manhpham90vn/Procyon/releases/latest";
-const wchar_t *const kIssues = L"https://github.com/manhpham90vn/Procyon/issues";
+const wchar_t *const kRepository = L"https://github.com/Bitfaring/Procyon";
+const wchar_t *const kLatestRelease = L"https://github.com/Bitfaring/Procyon/releases/latest";
+const wchar_t *const kIssues = L"https://github.com/Bitfaring/Procyon/issues";
 
 class SystemPage : public Page {
 public:
@@ -419,7 +419,7 @@ public:
             r.text(version, row, v, theme.text_secondary());
             row = inner.take_top(kRow);
             label(row, L"Source code");
-            link(row, L"github.com/manhpham90vn/Procyon", kRepository);
+            link(row, L"github.com/Bitfaring/Procyon", kRepository);
             row = inner.take_top(kRow);
             label(row, L"Releases");
             link(row, L"Latest release", kLatestRelease);

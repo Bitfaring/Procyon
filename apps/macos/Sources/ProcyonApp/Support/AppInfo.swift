@@ -4,7 +4,7 @@ import Foundation
 /// `scripts/build-macos-app.sh` writes the version (from the `VERSION` file), the build number and the git
 /// commit into Info.plist; a bare `swift run` has no bundle and reports itself as a development build.
 enum AppInfo {
-    static let repository = URL(string: "https://github.com/manhpham90vn/Procyon")!
+    static let repository = URL(string: "https://github.com/Bitfaring/Procyon")!
     static let releases = repository.appending(path: "releases")
     static let latestRelease = releases.appending(path: "latest")
     static let issues = repository.appending(path: "issues")

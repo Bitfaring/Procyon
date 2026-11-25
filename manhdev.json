@@ -35,7 +35,7 @@
     { "platform": "linux", "label": "Linux", "sub": "Other distros · .tar.gz", "asset": "^Procyon-[\\d.]+-linux-x86_64\\.tar\\.gz$", "file": "Procyon-{version}-linux-x86_64.tar.gz" }
   ],
   "packageManagers": [
-    { "platform": "macos", "label": "macOS · Homebrew", "command": "brew install --cask manhpham90vn/tap/procyon" }
+    { "platform": "macos", "label": "macOS · Homebrew", "command": "brew install --cask bitfaring/tap/procyon" }
   ],
   "version": "v1.0.2"
 }

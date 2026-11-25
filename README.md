@@ -107,7 +107,7 @@ Procyon is light on resources: sampling uses about 0.5% of one core.
 
 ### Windows
 
-1. Download the latest `Procyon-x.y.z-windows-x64.zip` from the [Releases page](https://github.com/manhpham90vn/Procyon/releases/latest).
+1. Download the latest `Procyon-x.y.z-windows-x64.zip` from the [Releases page](https://github.com/Bitfaring/Procyon/releases/latest).
 2. Unzip it anywhere and run `Procyon.exe`. There is no installer and nothing to register; settings live in
    `HKEY_CURRENT_USER\Software\Procyon`.
 3. To check the download, compare it with the `.sha256` file from the same release:
@@ -122,7 +122,7 @@ Control, where it is on, refuses unsigned apps altogether.
 ### Linux
 
 On Debian, Ubuntu and their derivatives, download the latest `procyon_x.y.z_amd64.deb` from the
-[Releases page](https://github.com/manhpham90vn/Procyon/releases/latest) and install it; apt pulls in GTK 4:
+[Releases page](https://github.com/Bitfaring/Procyon/releases/latest) and install it; apt pulls in GTK 4:
 
 ```sh
 sudo apt install ./procyon_x.y.z_amd64.deb
@@ -130,7 +130,7 @@ sudo apt install ./procyon_x.y.z_amd64.deb
 
 On other distributions:
 
-1. Download the latest `Procyon-x.y.z-linux-x86_64.tar.gz` from the [Releases page](https://github.com/manhpham90vn/Procyon/releases/latest).
+1. Download the latest `Procyon-x.y.z-linux-x86_64.tar.gz` from the [Releases page](https://github.com/Bitfaring/Procyon/releases/latest).
 2. Unpack it into `~/.local` (or `/usr/local` with `sudo`): the binary goes to `bin`, the desktop entry, icon
    and licenses to `share`, and Procyon appears in your app grid.
 
@@ -144,14 +144,14 @@ Settings live in `~/.config/procyon/settings.ini`, the history in `~/.local/shar
 ### Homebrew
 
 ```sh
-brew install --cask manhpham90vn/tap/procyon
+brew install --cask bitfaring/tap/procyon
 ```
 
 Update with `brew upgrade --cask procyon`.
 
 ### Download
 
-1. Download the latest `Procyon-x.y.z.dmg` from the [Releases page](https://github.com/manhpham90vn/Procyon/releases/latest).
+1. Download the latest `Procyon-x.y.z.dmg` from the [Releases page](https://github.com/Bitfaring/Procyon/releases/latest).
 2. Open the DMG and drag **Procyon** into **Applications**.
 3. Open Procyon from Applications or Spotlight.
 
@@ -276,7 +276,7 @@ and `share/licenses/procyon` from where you unpacked it. Optionally delete `~/.c
 You need Xcode 27 on macOS 14 or later.
 
 ```sh
-git clone https://github.com/manhpham90vn/Procyon.git
+git clone https://github.com/Bitfaring/Procyon.git
 cd Procyon
 make run      # build dist/Procyon.app and open it
 make test     # run the unit tests
@@ -292,7 +292,7 @@ You need Visual Studio 2022 with the **Desktop development with C++** workload a
 (`winget install ezwinports.make`). The same `make` targets work as on macOS, from cmd, PowerShell or Git Bash:
 
 ```bat
-git clone https://github.com/manhpham90vn/Procyon.git
+git clone https://github.com/Bitfaring/Procyon.git
 cd Procyon
 make tools    rem once: fetches CMake, Ninja and clang-format into build\tools (skip if Visual Studio's CMake component is installed)
 make run      rem build dist\windows\Procyon.exe and open it
@@ -310,7 +310,7 @@ and Arch):
 ```sh
 sudo apt install build-essential cmake ninja-build pkg-config libgtk-4-dev
 pipx install clang-format==19.1.0   # for make lint/format: 19 or later (Ubuntu 24.04's apt package is 18)
-git clone https://github.com/manhpham90vn/Procyon.git
+git clone https://github.com/Bitfaring/Procyon.git
 cd Procyon
 make run       # build dist/linux/procyon and open it
 make test      # core tests
@@ -321,7 +321,7 @@ make help      # all targets
 ## Contributing
 
 Bug reports, ideas and pull requests are welcome on
-[GitHub Issues](https://github.com/manhpham90vn/Procyon/issues). Before opening a pull request, run
+[GitHub Issues](https://github.com/Bitfaring/Procyon/issues). Before opening a pull request, run
 `make format` and `make ci`, which runs the same checks as CI.
 
 The repo layout, CI and release process, how the privileged helper works, and feature status against the

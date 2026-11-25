@@ -11,6 +11,6 @@
     24 hours of history, alerts, and the files and ports each app holds.</p>
   </description>
   <launchable type="desktop-id">dev.procyon.Procyon.desktop</launchable>
-  <url type="homepage">https://github.com/manhpham90vn/Procyon</url>
+  <url type="homepage">https://github.com/Bitfaring/Procyon</url>
   <content_rating type="oars-1.1"/>
 </component>

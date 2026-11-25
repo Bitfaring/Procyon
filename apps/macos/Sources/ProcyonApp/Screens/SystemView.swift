@@ -162,7 +162,7 @@ private struct AboutSection: View {
                 .textSelection(.enabled)
             }
             LabeledContent("Source code") {
-                Link("github.com/manhpham90vn/Procyon", destination: AppInfo.repository)
+                Link("github.com/Bitfaring/Procyon", destination: AppInfo.repository)
             }
             LabeledContent("Releases") {
                 Link("Latest release", destination: AppInfo.latestRelease)

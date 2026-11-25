@@ -47,7 +47,7 @@ Depends: $depends
 Recommends: systemd
 Section: utils
 Priority: optional
-Homepage: https://github.com/manhpham90vn/Procyon
+Homepage: https://github.com/Bitfaring/Procyon
 Description: Lightweight task manager
  See what is using your CPU, memory, disk, network and GPU, find out what a
  process is, and stop the ones you don't need.

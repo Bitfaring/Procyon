@@ -8,7 +8,7 @@ cd "$(dirname "$0")/.."
 
 VERSION=${1:?usage: publish-homebrew.sh VERSION (without the v prefix)}
 VERSION=${VERSION#v}
-TAP_REPO=${TAP_REPO:-manhpham90vn/homebrew-tap}
+TAP_REPO=${TAP_REPO:-Bitfaring/homebrew-tap}
 TAP_BRANCH=${TAP_BRANCH:-main}
 
 : "${HOMEBREW_TAP_TOKEN:?publish-homebrew.sh: HOMEBREW_TAP_TOKEN must hold a token with contents write access to $TAP_REPO.}"
@@ -18,7 +18,7 @@ trap 'rm -rf "$WORK"' EXIT
 
 DMG="dist/Procyon-$VERSION.dmg"
 if [ ! -f "$DMG" ]; then
-    gh release download "v$VERSION" --repo manhpham90vn/Procyon --pattern "Procyon-$VERSION.dmg" --dir "$WORK"
+    gh release download "v$VERSION" --repo Bitfaring/Procyon --pattern "Procyon-$VERSION.dmg" --dir "$WORK"
     DMG="$WORK/Procyon-$VERSION.dmg"
 fi
 SHA256=$(shasum -a 256 "$DMG" | cut -d' ' -f1)
