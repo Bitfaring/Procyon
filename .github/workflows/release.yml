@@ -9,8 +9,8 @@ name: Release
 #   MACOS_CERTIFICATE_P12       base64 of a "Developer ID Application" certificate exported as .p12
 #   MACOS_CERTIFICATE_PASSWORD  password of that .p12
 #   APPLE_ID, APPLE_TEAM_ID, APPLE_APP_PASSWORD   notarization (app-specific password)
-#   HOMEBREW_TAP_TOKEN          token with contents write access to manhpham90vn/homebrew-tap; stable
-#                               releases then update the procyon cask (`brew install manhpham90vn/tap/procyon`)
+#   HOMEBREW_TAP_TOKEN          token with contents write access to Bitfaring/homebrew-tap; stable
+#                               releases then update the procyon cask (`brew install bitfaring/tap/procyon`)
 
 on:
   push:

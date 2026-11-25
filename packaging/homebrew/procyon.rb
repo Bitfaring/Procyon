@@ -2,10 +2,10 @@ cask "procyon" do
   version "@VERSION@"
   sha256 "@SHA256@"
 
-  url "https://github.com/manhpham90vn/Procyon/releases/download/v#{version}/Procyon-#{version}.dmg"
+  url "https://github.com/Bitfaring/Procyon/releases/download/v#{version}/Procyon-#{version}.dmg"
   name "Procyon"
   desc "Lightweight task manager"
-  homepage "https://github.com/manhpham90vn/Procyon"
+  homepage "https://github.com/Bitfaring/Procyon"
 
   livecheck do
     url :url

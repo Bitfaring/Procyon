@@ -208,7 +208,7 @@ Tools: Xcode 27 provides `swift format`; `brew install clang-format llvm shellch
   SHA-256, GitHub release (versions with `-` are marked prerelease). With the secrets `MACOS_CERTIFICATE_P12`,
   `MACOS_CERTIFICATE_PASSWORD`, `APPLE_ID`, `APPLE_TEAM_ID` and `APPLE_APP_PASSWORD`, it signs with Developer ID
   and notarizes; without them the build is ad-hoc signed. With `HOMEBREW_TAP_TOKEN` (contents write access to
-  [manhpham90vn/homebrew-tap](https://github.com/manhpham90vn/homebrew-tap)), stable releases also update the `procyon`
+  [Bitfaring/homebrew-tap](https://github.com/Bitfaring/homebrew-tap)), stable releases also update the `procyon`
   cask there through `scripts/publish-homebrew.sh`, rendered from `packaging/homebrew/procyon.rb`. A second job
   then builds `Procyon-x.y.z-windows-x64.zip` (unsigned; Authenticode signing and winget are open) with its
   SHA-256 and attaches both to the same release; a third, on `ubuntu-24.04`, builds
